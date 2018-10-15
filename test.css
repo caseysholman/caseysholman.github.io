@@ -1,0 +1,7 @@
+body{
+	background-image: url("junior-ethan.jpg");
+	background-attachment: fixed;
+}
+#title {
+	background-color: red;
+}
