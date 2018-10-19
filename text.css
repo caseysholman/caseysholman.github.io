@@ -1,6 +1,6 @@
 body{
 	letter-spacing: 2px;
-	color: #636a76
+	color: #3a4549
 }
 h1{
 	font-family: 'Raleway', sans-serif;
@@ -8,7 +8,7 @@ h1{
 	font-size: 80px;
 }
 h2{
-	padding-left: 230px;
+	text-align: center;
 }
 h3{
 	font-family: 'Raleway', sans-serif;
@@ -31,7 +31,7 @@ p{
 	font-size: 17px;
 }
 #title {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 #scroll {
 	padding-top: 5000px;
@@ -40,13 +40,19 @@ p{
 	padding-top: 2000px;
 	background-attachment: scroll;
 }
-#Spotlight {
-	padding-top: 100px;
-}
 #Timeline {
-	padding-top: 400px;
+	padding-top: 200px;
 }
 #Intro {
-	padding-left: 250px;
-	padding-right: 350px;
+	font-size: 10px;
+	padding-left: 150px;
+}
+#Spotlight {
+	font-size: 10px;
+}
+#Columns {
+	padding-top: 50px;
+	column-count: 3;
+	column-gap: 20px;
+	colum
 }
