@@ -1,37 +1,37 @@
 body{
-	background-image: linear-gradient(#aaaebc, #e1eeeb);
-	background-attachment: fixed;
+	background-color: #FFFCE2;
+	background-size: 300px 100px
 }
-#nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-top: 0;
-left: 0;
-overflow: hidden;
-background-color: #34495e;
-width: 100%;
-/*width: 100%; Use for vertical bar */
-position: fixed; /* Make it stick, even on scroll */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
-
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 #nav li {
 height: 40px;
 line-height: 40px;
 float: left;
 }
-
+#RI {
+	padding-right: 150px;
+	padding-top: 50px;
+}
 #nav li a {
 display: block;
 color: #fff;
 padding: 8px 16px;
 text-decoration: none;
-
+}
+#centered{
+	text-align: center;
 }
 /* Change the link color to #111 (black) on hover */
 #nav li a:hover {
 background-color: #111;
-}
-#TimelinePh{
-	text-align: center;
 }
